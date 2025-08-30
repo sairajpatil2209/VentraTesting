@@ -1,10 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-interface NavItem {
-  name: string;
-  href: string;
-}
+
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
