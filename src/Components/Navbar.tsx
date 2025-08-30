@@ -26,7 +26,7 @@ export default function Navbar() {
   //   { name: "Founder", href: "#founder" },
   //   { name: "Deal Room", href: "#dealroom" },
   // ];
-
+//
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
       scrolled 
