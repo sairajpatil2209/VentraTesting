@@ -20,12 +20,12 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // const navItems: NavItem[] = [
-  //   { name: "Why Vantra", href: "#features" },
-  //   { name: "Process", href: "#process" },
-  //   { name: "Founder", href: "#founder" },
-  //   { name: "Deal Room", href: "#dealroom" },
-  // ];
+  const navItems: NavItem[] = [
+    { name: "Why Vantra", href: "#features" },
+    { name: "Process", href: "#process" },
+    { name: "Founder", href: "#founder" },
+    { name: "Deal Room", href: "#dealroom" },
+  ];
 
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
